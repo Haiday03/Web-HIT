@@ -1,0 +1,43 @@
+.cd {
+    color: red;
+    text-align: center;
+}
+img {
+    width: 32%;
+    height: 24%;
+}
+/* .anh-dau {
+    display: block;
+    width: 100px;
+    height: 100px;
+} */
+.gt {
+    background-color: #EE82EA;
+    color:white;
+}
+.yc1 {
+    color:rgb(81, 0, 255);
+}
+.yc {
+    background-color:#AFDFE5 ;
+}
+.bang {
+    background-color:#CEEDCE ;
+    width: 100%;
+}
+.td-1 {
+    width: 12%;
+    height: auto;
+    text-align: center;
+}
+.td-2 {
+    width: 88%;
+    height: auto;
+    padding-left: 40px;
+}
+tr{
+    height: 40px;
+}
+.footer{
+    background-color: #90EE90;
+}
