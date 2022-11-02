@@ -1,0 +1,39 @@
+.o {
+    width: 28px;
+    height: 28px;
+    background-color: yellow;
+}
+.chu_h {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    height: 1000px;
+    padding-top: 46%;
+}
+.kt {
+    width: 16px;
+}
+.chu_t {
+    display: flex;
+    flex-direction: row;
+}
+.bo-5 {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+.bo-8{
+    display: flex;
+    flex-direction: column;
+}
+.so_ba{
+    display: flex;
+    flex-direction: row;
+}
+.all {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+}
