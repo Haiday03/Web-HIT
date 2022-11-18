@@ -64,3 +64,7 @@ i {
     height: 40px;
     cursor: pointer;
 }
+.icons {
+    display: flex;
+    margin-left: 45px;
+}
