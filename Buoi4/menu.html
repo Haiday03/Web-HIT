@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        *{
+            font-family: 'Poor Story', cursive;
+            margin: 0;
+            padding: 0;
+        }
+
+        div:hover{
+            color: blue !important;
+            background-color: red;
+            font-size: 65px !important;
+            position: relative;
+            top: -60px;
+            left: 50px;
+            z-index: -1;
+        }
+        div{
+            position: sticky;
+            top: 0px;
+        }
+        .red-color{
+            color: red !important;
+        }
+        h1{
+            color: purple;
+        }
+        ul,li>a{
+            list-style-type: none !important;
+            text-decoration: none !important;
+        }
+        li>a{
+            background-color: aqua;
+        }
+        li>a{
+            padding: 15px;
+        }
+        li>a:hover{
+            background-color: #CCC;
+        }
+        .pd{
+            padding: 15px;
+        }
+        ul{
+            position: relative;
+            display: flex;
+        }
+        li>ul{
+            position: absolute;
+            left: 0;
+            display: none;
+            top: 32px;
+        }
+        li:hover>ul{
+            display: block;
+        }
+        
+    </style>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.0/css/all.min.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poor+Story&display=swap" rel="stylesheet">
+</head> 
+<body style="height: 10000px ;">
+    <h1 class="red-color">Hello World!</h1>
+    <!-- <div style="font-size: 55px; color: orangered;padding: 15px;" class="fa-solid fa-user"></div> -->
+    <ul>
+        <li>
+            <a href="#">Lorem ipsum</a> 
+            <ul style="flex-direction:column">
+                <li class="pd"><a href="#">Lorem ipsum</a></li>
+                <li class="pd"><a href="#">Lorem ipsum</a></li>
+                <li class="pd"><a href="#">Lorem ipsum</a></li>
+                <li class="pd"><a href="#">Lorem ipsum</a></li>
+                <li class="pd"><a href="#">Lorem ipsum</a></li>
+            </ul>
+        </li>
+        <li>
+            <a href="#">Lorem ipsum</a> 
+        </li>
+        <li>
+            <a href="#">Lorem ipsum</a> 
+        </li>
+        <li>
+            <a href="#">Lorem ipsum</a> 
+        </li>
+        <li>
+            <a href="#">Lorem ipsum</a> 
+        </li>
+        <li>
+            <a href="#">Lorem ipsum</a> 
+        </li>
+    </ul>
+</body>
+</html>

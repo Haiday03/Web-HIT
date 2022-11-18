@@ -1,0 +1,44 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+ul{
+    list-style: none;
+}
+.father {
+    display: flex;
+    justify-content: space-around;
+    position: relative;
+}
+
+.menu li{
+    background-color: brown;
+    border: 1px solid black;
+    width: 20%;
+    cursor: pointer;
+}
+.father .Con {
+    display: none;
+    position: absolute;
+}
+.menu li:hover {
+    background-color: aqua;
+    color: aliceblue;
+}
+.menu li:hover > .Con {
+    display: block;
+    /* left: 0; */
+    top: 100%;
+}
+.menu li ul li {
+    width: 204.8px;
+}
+.father .Con .chau {
+    display: none;
+    position: absolute;
+}
+.father li:hover > .Con li:hover > .chau {
+    display: block;
+    top: 75%;
+    left: 100%;
+}

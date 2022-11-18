@@ -1,0 +1,26 @@
+ul {
+    list-style: none;
+    display: flex;
+    justify-content: space-around;
+}
+* {
+    margin: 0;
+    padding: 0;
+}
+li{
+    background-color: aqua;
+    width: 20%;
+    border: 1px solid red;
+    text-align: center;
+}
+.cha {
+    position: relative;
+}
+.con {
+    display: none;
+    position: absolute;
+}
+.cha:hover .con {
+    display: block;
+    
+}
