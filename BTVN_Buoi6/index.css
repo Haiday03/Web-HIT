@@ -72,16 +72,17 @@ hr {
     margin-bottom: 20px;
 }
 .chu-3 {
-        min-width: 700px;
+        width: 700px;
         height: 38px;
         margin-left: 30%;
         font-size: 12px;
         color: whitesmoke;
+        margin-bottom: 12px;
 }
 .chu-4 {
-        min-width: 600px;
+        width: 600px;
         height: 38px;
-        margin-left: 34%;
+        margin-left: 32%;
         font-size: 12px;
         color: whitesmoke; 
 }
@@ -112,7 +113,7 @@ hr {
     margin-bottom: 20px;
 }
 .chu-5 {
-    min-width: 700px;
+    width: 700px;
     height: 60px;
     margin-left: 32%;
     font-size: 28px;
@@ -120,14 +121,15 @@ hr {
     color: whitesmoke;  
 }
 .chu-6 {
-    min-width: 700px;
+    width: 700px;
     height: 38px;
     margin-left: 30%;
     font-size: 12px;
     color: whitesmoke;
+    margin-bottom: 12px;
 }
 .chu-7 {
-    min-width: 700px;
+    width: 700px;
     height: 38px;
     margin-left: 31%;
     font-size: 12px;
@@ -154,7 +156,7 @@ hr {
     height: 665px;
 }
 .chu-9 {
-    min-width: 700px;
+    width: 700px;
     height: 60px;
     margin-left: 38%;
     font-size: 20px;
@@ -248,4 +250,115 @@ input {
     text-align: center;
     background-color: whitesmoke;
     padding-top: 60px;
+}
+
+@media only screen and (max-width: 568px) {
+    .dau-2{
+        display: none;
+    }
+    .chu-3,.chu-4,.chu-5,.chu-6,.chu-7,.chu-8 {
+        width: 100%;
+        margin: 0;
+        padding: 0;
+        margin-bottom: 12px;
+    }
+    .chu-9 {
+        text-align: center;
+        width: 100%;
+        margin: 0;
+    }
+    input,.bam-cuoi {
+        width: 80%;
+    }
+    .gc-1 {
+        font-size: 28px;
+    }
+    .chu-1,.chu-2,.chu-5 {
+        font-size: 20px;
+    }
+    .chu-3,.chu-4,.chu-6,.chu-7 {
+        font-size: 12px;
+        max-width: 568px;
+    }
+    .anh-1,.anh-2,.anh-3,.anh-4,.anh-5,.anh-6 {
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+    }
+    .nd-3-1 {
+        display: flex;
+        flex-direction: column;
+    }
+    .nd-4 {
+        display: grid;
+        grid-template-columns: repeat(1,1fr);
+        grid-template-rows: 218.13px 218.13px 218.13px 218.13px 218.13px 218.13px;
+        margin-top: 100px;
+    }
+    .o-nho {
+        width: 100%;
+        margin-bottom: 20px;
+    }
+    .chu-1,.chu-2 {
+        width: 100px;
+        margin: 0;
+        height: 30px;
+    }
+}
+@media only screen and (min-width:568px) and (max-width: 899px) {
+    .dau-2{
+        display: none;
+    }
+    .chu-3,.chu-4,.chu-5,.chu-6,.chu-7,.chu-8 {
+        width: 100%;
+        margin: 0;
+        padding: 0;
+        margin-bottom: 12px;
+    }
+    .chu-9 {
+        text-align: center;
+        width: 100%;
+        margin: 0;
+    }
+    input,.bam-cuoi {
+        width: 80%;
+    }
+    .gc-1 {
+        font-size: 28px;
+    }
+    .chu-1,.chu-2,.chu-5 {
+        font-size: 20px;
+    }
+    .chu-3,.chu-4,.chu-6,.chu-7 {
+        font-size: 12px;
+        max-width: 568px;
+    }
+    .anh-1,.anh-2,.anh-3,.anh-4,.anh-5,.anh-6 {
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+    }
+    .nd-3-1 {
+        display: flex;
+        flex-wrap: wrap;
+    }
+    .nd-4 {
+        display: grid;
+        grid-template-columns: repeat(2,1fr);
+        grid-template-rows:  218.13px 218.13px 218.13px;
+        margin-top: 120px;
+    }
+    .o-nho {
+        width: 50%;
+        margin-bottom: 12px;
+    }
+    .chu-1,.chu-2 {
+        width: 100px;
+        margin: 0;
+        height: 30px;
+        text-align: center;
+    }
+    .chu-3 ,.chu-4,.chu-5,.chu-6,.chu-7 {
+        text-align: center;
+    }
 }
