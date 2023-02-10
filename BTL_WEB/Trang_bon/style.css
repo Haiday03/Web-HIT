@@ -2,16 +2,19 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
+    
 }
 .buy {
-    height: 56px;
+    height: 10%;
     display: flex;
     background-color: #262626;
     position: fixed;
+    overflow: hidden;
     top: 0;
     left: 0;
     right: 0;
     z-index: 1;
+    font-family: 'Open Sans', sans-serif;
 }
 .buy-1 {
     width: 12.5%;
@@ -43,11 +46,13 @@
 }
 .menu {
     display: flex;
-    margin-top: 56px;
+    margin-top: 54px;
     height: 100px;
     background-color: #0B0807;
     border-bottom: 2px dotted wheat;
+    font-family: 'Open Sans', sans-serif;
 }
+
 .menu-1 {
     width: 28%;
     margin-left: -100px;
@@ -57,7 +62,8 @@
     height: 100%;
 }
 .menu-2  {
-    width: 48%;
+    width: 80%;  /*suaaaaa*/
+    
 }
 .menu-2 > ul {
     list-style: none;
@@ -67,7 +73,7 @@
 .menu-2 > ul > li > a {
     text-decoration: none;
     color: whitesmoke;
-    font-size: 16px;
+    
 }
 .menu-2 > ul > li {
     width: 16.6%;
@@ -77,14 +83,17 @@
     justify-content: center;
     align-items: center;
     margin-top: 40px;
+    font-size: 14px; /*Suaaaaaaa*/
 }
 .menu-3 {
-    width: 24%;
+    margin: auto;
+    width: 20%;
+    display: flex;
+    flex-wrap: wrap;
+    padding-left: 8%;
+    letter-spacing: 20px;
 }
-.menu-3 > img {
-    width: 100%;
-    height: 100%;
-}
+
 .header {
     height: 390px;
     background-image: url(banhmy.png);
@@ -98,18 +107,18 @@
     height: 250px;
     background-color: rgba(6, 5, 5, 0.753);
     text-align: center;
-   
+    font-family: 'Open Sans', sans-serif;
 }
 .chu-mau {
     color: #b99563 !important;
-    font-family: 'Sacramento', cursive;
-    font-size: 18px;
-    /* margin-top: 48px; */
-    letter-spacing: 0.9px;
+    font-family: 'Sacramento', cursive; 
+    font-size: 24px;
+    letter-spacing: 0.9px;   
 }
 .content-in-header > p {
     color: rgb(203, 202, 202);
-    font-size: 16px;
+    
+    /* font-size: 16px; */
 }
 .end-in-header {
     height: 42px;
@@ -118,6 +127,8 @@
     display: flex;
     justify-content: center;
     align-items: center;
+    font-family: 'Open Sans', sans-serif;
+    font-size: 15px;
 }
 
 
@@ -129,6 +140,7 @@
     flex-wrap:  wrap;
     width: 100%;
     height: 100%;
+    font-family: 'Open Sans', sans-serif;
     
 }
 .shop-girl-coca{
@@ -230,18 +242,27 @@ Hai */
     height: 700px;
 
 }
+.footer-1{
+    text-align: center;
+}
 .footer p {
     text-align: center;
     color: #849493;
-    font-size: 18px;
+    font-size: 15px;
     margin-top: 4px;
+    font-family: 'Open Sans', sans-serif; /*suaaa*/
+    font-style: normal;
+    line-height: 1.5;
 }
 .footer-2 {
     display: flex;
     margin-left: 12.5%;
     margin-top: 40px;
+    
 }
+
 .end-1,.end-2,.end-3 {
+    line-height: 1.5;
     width: 30%;
 }
 .footer h3 {
@@ -249,7 +270,7 @@ Hai */
     font-size: large;
 }
 .footer .khac {
-    font-size: 18px;
+    font-size: 15px;
     color: #849493;
 }
 .price {
@@ -273,8 +294,28 @@ Hai */
 }
 
 
-
 @media (max-width: 768px){
+    .buy{
+    width: 100%;
+    }
+    .buy-1{
+        width: 30%;
+        height: 90%;
+    }
+    .menu{
+        padding-top: 12px;
+        width: 100%;
+    }
+    .menu-1{
+        width: 60%;
+    }
+    .menu-2{
+        width: 100%; 
+        margin-left: -15px; 
+    }
+    .menu-2 > ul > li > a{
+        font-size: 12px;
+    }
     .footer-2{
         display: flex;
         flex-wrap: wrap;
@@ -287,7 +328,6 @@ Hai */
     .end-2,
     .end-3{
         width: 42%; 
-       
     }
     .end-2{
         margin: 0 5%;
@@ -302,6 +342,30 @@ Hai */
 
 
 @media (min-width: 768px) and (max-width: 1024px){
+     .buy{
+        height: 7%;
+    }
+    .buy-1{
+        width: 30%;
+        height: 80%;
+    }
+    .buy-2{
+        margin: 3%
+    }
+    .menu{
+        padding-top: 12px;
+        width: 100%;
+    }
+    .menu-1{
+        width: 60%;
+    }
+    .menu-2{
+        width: 100%; 
+        margin-left: -15px; 
+    }
+    .menu-2 > ul > li > a{
+        font-size: 13px;
+    }
     .shop-girl-coca__1{
         width: 123%;
        margin: 0 auto;
