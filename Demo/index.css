@@ -1,0 +1,15 @@
+
+.tieude1{
+    text-align: center;
+    background-color: pink;
+}
+.tieude2{
+    text-align: center;
+    background-color: chocolate;
+}
+.table, th, td {
+        border: 1px solid black;
+        border-collapse: collapse;
+        background-color: aqua;
+        width: 20%;
+}
